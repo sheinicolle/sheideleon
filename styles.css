@@ -183,22 +183,8 @@ nav {
     padding: 0.25rem 0.75rem;
     border-radius: 1rem;
     font-weight: 500;
-}
-
-.project-status:contains("Completed") {
     background-color: #d1fae5;
     color: var(--success-color);
-}
-
-.project-card:nth-child(1) .project-status,
-.project-card:nth-child(2) .project-status {
-    background-color: #d1fae5;
-    color: var(--success-color);
-}
-
-.project-card:nth-child(3) .project-status {
-    background-color: #fef3c7;
-    color: var(--warning-color);
 }
 
 .project-description {
